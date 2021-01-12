@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		B294A9AC25ADC4AC009705AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B294A9AB25ADC4AC009705AF /* AppDelegate.swift */; };
 		B294A9AE25ADC4AC009705AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B294A9AD25ADC4AC009705AF /* SceneDelegate.swift */; };
-		B294A9B025ADC4AC009705AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B294A9AF25ADC4AC009705AF /* ViewController.swift */; };
-		B294A9B325ADC4AC009705AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B294A9B125ADC4AC009705AF /* Main.storyboard */; };
+		B294A9B025ADC4AC009705AF /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B294A9AF25ADC4AC009705AF /* CalendarViewController.swift */; };
 		B294A9B525ADC4AD009705AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B294A9B425ADC4AD009705AF /* Assets.xcassets */; };
 		B294A9B825ADC4AD009705AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B294A9B625ADC4AD009705AF /* LaunchScreen.storyboard */; };
 		B294A9C325ADC4AD009705AF /* ReactiveCalendarIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B294A9C225ADC4AD009705AF /* ReactiveCalendarIOSTests.swift */; };
@@ -38,8 +37,7 @@
 		B294A9A825ADC4AC009705AF /* ReactiveCalendarIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveCalendarIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B294A9AB25ADC4AC009705AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B294A9AD25ADC4AC009705AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B294A9AF25ADC4AC009705AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B294A9B225ADC4AC009705AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B294A9AF25ADC4AC009705AF /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		B294A9B425ADC4AD009705AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B294A9B725ADC4AD009705AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B294A9B925ADC4AD009705AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,8 +99,7 @@
 			children = (
 				B294A9AB25ADC4AC009705AF /* AppDelegate.swift */,
 				B294A9AD25ADC4AC009705AF /* SceneDelegate.swift */,
-				B294A9AF25ADC4AC009705AF /* ViewController.swift */,
-				B294A9B125ADC4AC009705AF /* Main.storyboard */,
+				B294A9AF25ADC4AC009705AF /* CalendarViewController.swift */,
 				B294A9B425ADC4AD009705AF /* Assets.xcassets */,
 				B294A9B625ADC4AD009705AF /* LaunchScreen.storyboard */,
 				B294A9B925ADC4AD009705AF /* Info.plist */,
@@ -233,7 +230,6 @@
 			files = (
 				B294A9B825ADC4AD009705AF /* LaunchScreen.storyboard in Resources */,
 				B294A9B525ADC4AD009705AF /* Assets.xcassets in Resources */,
-				B294A9B325ADC4AC009705AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B294A9B025ADC4AC009705AF /* ViewController.swift in Sources */,
+				B294A9B025ADC4AC009705AF /* CalendarViewController.swift in Sources */,
 				B294A9AC25ADC4AC009705AF /* AppDelegate.swift in Sources */,
 				B294A9AE25ADC4AC009705AF /* SceneDelegate.swift in Sources */,
 			);
@@ -296,14 +292,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B294A9B125ADC4AC009705AF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B294A9B225ADC4AC009705AF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B294A9B625ADC4AD009705AF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
